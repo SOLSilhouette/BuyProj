@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(to left, blueviolet, darkblue);
+    font-family: courier;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: default;
+}
+
+figure {
+    display: inline-block;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+figure:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+img:active {
+    box-shadow: none;
+    transform: scale(0.99);
+}
+
+img {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#next {
+    display: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: fantasy;
+    font-variant: small-caps;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+#next:active {
+    transform: scale(0.95);
+}
+
+#what_num, #miles_num, #what_done, #miles_done {
+    display: none;
+}
+
+.num {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.done {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.num:hover,.done:hover {
+    background-color: white;
+    color: black;
+}
+.num:active,.done:active {
+    transform: scale(0.95);
+}
+
+fieldset {
+    display: none;
+    width: 75%;
+    margin: 0 auto;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: lightblue;
+    box-shadow: 0 0 7px black;
+}
+
+legend {
+    color: white;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: black;
+}
+
+label {
+    font-family: fantasy;
+}
+
+input {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+textarea {
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#sub {
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#sub:hover {
+    background-color: black;
+    color: white;
+}
